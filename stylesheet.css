@@ -1,0 +1,21 @@
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.form-group {
+  margin: 20px 0px;
+}
+
+.btn-block {
+  margin: 10px 0px;
+  width: 100%;
+}
+
+@media (min-width: 990px) {
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
